@@ -28,7 +28,6 @@
   "devDependencies": {
     "@eslint/compat": "1.2.4",
     "@eslint/eslintrc": "3.2.0",
-    "@eslint/js": "9.16.0",
     "@nuxt/eslint": "0.5.7",
     "eslint": "9.16.0",
     "globals": "15.13.0"
