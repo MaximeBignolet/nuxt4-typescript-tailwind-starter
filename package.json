@@ -14,9 +14,17 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "6.12.2",
     "axios": "1.7.9",
+    "eslint-plugin-html": "8.1.2",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-jsonc": "2.18.2",
+    "eslint-plugin-promise": "7.2.1",
+    "eslint-plugin-unicorn": "56.0.1",
+    "eslint-plugin-unused-imports": "4.1.4",
+    "jsonc-eslint-parser": "2.4.0",
     "nuxt": "3.14.1592",
     "typescript": "5.5.4",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {
     "@eslint/compat": "1.2.4",
