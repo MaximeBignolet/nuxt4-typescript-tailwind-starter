@@ -1,22 +1,25 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  compatibilityDate: `2024-04-03`,
-  ssr: false,
-  devtools: { enabled: true },
-  modules: [ `@nuxtjs/tailwindcss`, `@nuxt/eslint` ],
-  eslint: {
-    config: {
-      stylistic: true
-    }
-  },
-  components: [
-    {
-      path: `~/components`,
-      pathPrefix: false
-    }
-  ],
-  imports: {
-    autoImport: true
-  }
+	modules: [`@nuxtjs/tailwindcss`, `@nuxt/eslint`],
+	ssr: false,
+	components: [
+		{
+			path: `~/components`,
+			pathPrefix: false,
+		},
+	],
+	imports: {
+		autoImport: true,
+	},
+	devtools: { enabled: true },
+	compatibilityDate: `2024-04-03`,
+	eslint: {
+		config: {
+			stylistic: {
+				indent: 'tab',
+				semi: true,
+			},
+		},
+	},
 });
