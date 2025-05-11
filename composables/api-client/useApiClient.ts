@@ -11,7 +11,6 @@ export const baseOptions: NitroFetchOptions<any> = {
 	headers: {
 		'Content-Type': `application/json`,
 		'Accept': `application/json`,
-		'X-XSRF-TOKEN': decodeURIComponent(useCookie('XSRF-TOKEN').value as string),
 	},
 	credentials: 'include',
 	method: Method.GET,
