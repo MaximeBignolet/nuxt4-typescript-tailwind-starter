@@ -35,7 +35,7 @@ function deepMerge(obj1: any, obj2: any): any {
 export const useApiClient = async <T>(
 	url: string,
 	options?: NitroFetchOptions<NitroFetchRequest>,
-): Promise<T> => {
+) => {
 	try {
 		const isFormData = options?.body instanceof FormData;
 
@@ -45,7 +45,7 @@ export const useApiClient = async <T>(
 			delete mergedOptions.headers?.['Content-Type'];
 		}
 
-		return await $fetch<T>(url, mergedOptions);
+		return await useFetch<T>(url, mergedOptions);
 	}
 	catch (e: unknown) {
 		console.error(e);
