@@ -11,20 +11,20 @@ export default defineNuxtConfig({
 	],
 	imports: {
 		dirs: [
-			'composables/**',
+			`composables/**`,
 		],
 	},
 	devtools: { enabled: true },
 	compatibilityDate: `2024-04-03`,
 	vite: {
 		build: {
-			target: 'esnext',
+			target: `esnext`,
 		},
 	},
 	eslint: {
 		config: {
 			stylistic: {
-				indent: 'tab',
+				indent: `tab`,
 				semi: true,
 			},
 		},
