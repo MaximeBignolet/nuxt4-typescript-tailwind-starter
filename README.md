@@ -45,9 +45,7 @@ nuxt-starter-template/
 ├─ components/         # UI components
 ├─ layouts/            # App layouts
 ├─ pages/              # File-based routing
-├─ plugins/            # Nuxt plugins
 ├─ assets/             # Global styles, images
-└─ utils/              # Helpers and constants
 
 ```
 🧩 Features
