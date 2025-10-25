@@ -1,75 +1,91 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Starter Template ⚡
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern and minimal Nuxt 3 starter built with **TypeScript**, **TailwindCSS**, and **Vite**.  
+Ideal base for scalable front-end projects, prototypes, or commercial apps.
 
-## Setup
+---
 
-Make sure to install the dependencies:
+## 🚀 Tech Stack
 
+- [Nuxt 3](https://nuxt.com/) – Hybrid rendering & file-based routing  
+- [TypeScript](https://www.typescriptlang.org/) – Type safety  
+- [TailwindCSS](https://tailwindcss.com/) – Utility-first styling  
+- [Vite](https://vitejs.dev/) – Fast bundling & HMR  
+- [ESLint + Prettier](https://eslint.org/) – Code quality and formatting
+
+---
+
+## 🛠️ Setup
+
+### Install dependencies
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start development server
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm dev
 ```
-
-## Production
-
-Build the application for production:
+Server runs on http://localhost:3000
+Build for production
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm build
 ```
-
-Locally preview production build:
+Preview build
+```bash
+pnpm preview
+```
+📁 Project structure
 
 ```bash
-# npm
-npm run preview
+nuxt-starter-template/
+├─ composables/        # Reusable logic
+├─ components/         # UI components
+├─ layouts/            # App layouts
+├─ pages/              # File-based routing
+├─ plugins/            # Nuxt plugins
+├─ assets/             # Global styles, images
+└─ utils/              # Helpers and constants
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
+🧩 Features
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    Pre-configured ESLint + Prettier
+
+    Alias @ for clean imports
+
+    Responsive design ready
+
+    Type-safe API utilities
+
+    Example components and composables
+
+    Ready for deployment (Vercel, Netlify…)
+
+
+🧱 Coming soon (optional premium version)
+
+    Auth & user session flow
+
+    Dashboard layout
+
+    UI components library (Tailwind UI + custom)
+
+    Dark mode toggle
+
+    SEO + meta module
+
+    CMS integration (optional)
+
+
+📄 License
+
+MIT — free to use, modify, and distribute.
+If you use this template commercially, a link back is appreciated.
+
+👨‍💻 Author
+
+Maxime Bignolet
+Frontend Developer – France
