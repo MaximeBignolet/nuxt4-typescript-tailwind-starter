@@ -87,3 +87,7 @@ If you use this template commercially, a link back is appreciated.
 
 Maxime Bignolet
 Frontend Developer – France
+
+![Nuxt](https://img.shields.io/badge/Nuxt-4-00DC82)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC)
