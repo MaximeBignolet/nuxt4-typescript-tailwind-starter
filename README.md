@@ -1,13 +1,13 @@
 # Nuxt Starter Template ⚡
 
-A modern and minimal Nuxt 3 starter built with **TypeScript**, **TailwindCSS**, and **Vite**.  
+A modern and minimal Nuxt 4 starter built with **TypeScript**, **TailwindCSS**, and **Vite**.  
 Ideal base for scalable front-end projects, prototypes, or commercial apps.
 
 ---
 
 ## 🚀 Tech Stack
 
-- [Nuxt 3](https://nuxt.com/) – Hybrid rendering & file-based routing  
+- [Nuxt 4](https://nuxt.com/) – Hybrid rendering & file-based routing  
 - [TypeScript](https://www.typescriptlang.org/) – Type safety  
 - [TailwindCSS](https://tailwindcss.com/) – Utility-first styling  
 - [Vite](https://vitejs.dev/) – Fast bundling & HMR  
