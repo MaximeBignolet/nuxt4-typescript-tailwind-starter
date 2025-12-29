@@ -1,13 +1,14 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-starter-template",
+  "description": "Nuxt 4 starter template with TypeScript, TailwindCSS, Vite, ESLint, and Prettier.",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bunx nuxt dev",
-    "build": "bunx nuxt build",
-    "preview": "bunx nuxt preview",
-    "generate": "bunx nuxt generate",
-    "postinstall": "bunx nuxt prepare",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -24,9 +25,18 @@
     "eslint": "^9.38.0",
     "eslint-import-resolver-node": "^0.3.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximeBignolet/nuxt-starter-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaximeBignolet/nuxt-starter-template/issues"
+  },
+  "homepage": "https://github.com/MaximeBignolet/nuxt-starter-template#readme",
   "keywords": [
     "nuxt",
     "nuxt3",
+    "nuxt4",
     "typescript",
     "tailwindcss",
     "vite",

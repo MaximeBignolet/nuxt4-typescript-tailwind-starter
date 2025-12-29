@@ -1,7 +1,9 @@
 # Nuxt Starter Template ⚡
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Nuxt Starter](https://img.shields.io/badge/Nuxt-4-00DC82)](https://nuxt.com)
 
-A modern and minimal Nuxt 4 starter built with **TypeScript**, **TailwindCSS**, and **Vite**.  
-Ideal base for scalable front-end projects, prototypes, or commercial apps.
+Nuxt 4 starter template built with **TypeScript**, **TailwindCSS**, **Vite**, **ESLint**, and **Prettier**.  
+Ideal base for scalable front-end projects, prototypes, or commercial apps with fast developer experience.
 
 ---
 
@@ -11,11 +13,11 @@ Ideal base for scalable front-end projects, prototypes, or commercial apps.
 - [TypeScript](https://www.typescriptlang.org/) – Type safety  
 - [TailwindCSS](https://tailwindcss.com/) – Utility-first styling  
 - [Vite](https://vitejs.dev/) – Fast bundling & HMR  
-- [ESLint + Prettier](https://eslint.org/) – Code quality and formatting
+- [ESLint](https://eslint.org/) – Code quality and formatting
 
 ---
 
-## 🛠️ Setup
+## 🛠️ Quick start
 
 ### Install dependencies
 ```bash
@@ -37,6 +39,8 @@ Preview build
 ```bash
 npm run preview # or: yarn preview
 ```
+
+> Use either npm or Yarn consistently to avoid lockfile conflicts.
 📁 Project structure
 
 ```bash
@@ -50,7 +54,7 @@ nuxt-starter-template/
 ```
 🧩 Features
 
-    Pre-configured ESLint + Prettier
+    Pre-configured ESLint 
 
     Alias @ for clean imports
 
