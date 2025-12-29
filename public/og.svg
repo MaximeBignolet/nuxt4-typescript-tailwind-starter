@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#0EA5E9" />
+			<stop offset="1" stop-color="#0F172A" />
+		</linearGradient>
+		<linearGradient id="pill" x1="0" y1="0" x2="180" y2="48" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#14B8A6" />
+			<stop offset="1" stop-color="#10B981" />
+		</linearGradient>
+	</defs>
+	<rect width="1200" height="630" rx="32" fill="url(#bg)" />
+	<circle cx="1020" cy="120" r="120" fill="rgba(255,255,255,0.06)" />
+	<circle cx="108" cy="540" r="180" fill="rgba(255,255,255,0.05)" />
+	<rect x="80" y="92" width="200" height="56" rx="28" fill="url(#pill)" />
+	<text x="100" y="129" fill="#0F172A" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">Nuxt 4 Starter</text>
+	<text x="80" y="238" fill="#E2E8F0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" letter-spacing="-0.5">Nuxt Starter Template</text>
+	<text x="80" y="304" fill="#C7D2FE" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="26" font-weight="500">TypeScript • TailwindCSS • Vite • ESLint</text>
+	<text x="80" y="354" fill="#E2E8F0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="500">
+		<tspan>Opinionated defaults for faster Nuxt apps.</tspan>
+	</text>
+	<rect x="80" y="412" width="280" height="64" rx="12" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="2" />
+	<text x="102" y="452" fill="#E2E8F0" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="600">npm create nuxt-app</text>
+</svg>
