@@ -19,23 +19,23 @@ Ideal base for scalable front-end projects, prototypes, or commercial apps.
 
 ### Install dependencies
 ```bash
-pnpm install
+npm install # or: yarn install
 ```
 
 Start development server
 
 ```bash
-pnpm dev
+npm run dev # or: yarn dev
 ```
 Server runs on http://localhost:3000
 Build for production
 
 ```bash
-pnpm build
+npm run build # or: yarn build
 ```
 Preview build
 ```bash
-pnpm preview
+npm run preview # or: yarn preview
 ```
 📁 Project structure
 
