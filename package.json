@@ -1,6 +1,6 @@
 {
   "name": "nuxt-starter-template",
-  "description": "Nuxt 4 starter template with TypeScript, TailwindCSS, Vite, ESLint, and Prettier.",
+  "description": "Nuxt 4 starter template with TypeScript, TailwindCSS, Vite, ESLint.",
   "type": "module",
   "private": true,
   "scripts": {

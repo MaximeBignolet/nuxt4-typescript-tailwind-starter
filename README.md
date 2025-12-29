@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Nuxt Starter](https://img.shields.io/badge/Nuxt-4-00DC82)](https://nuxt.com)
 
-Nuxt 4 starter template built with **TypeScript**, **TailwindCSS**, **Vite**, **ESLint**, and **Prettier**.  
+Nuxt 4 starter template built with **TypeScript**, **TailwindCSS**, **Vite**, **ESLint**.  
 Ideal base for scalable front-end projects, prototypes, or commercial apps with fast developer experience.
 
 ---
