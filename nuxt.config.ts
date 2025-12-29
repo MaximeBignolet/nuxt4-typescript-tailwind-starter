@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
 	modules: [`@nuxt/eslint`],
-	ssr: false,
+	ssr: true,
 	components: [
 		{
 			path: `~/components`,
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 			`composables/**`,
 		],
 	},
-	devtools: { enabled: true },
+	devtools: { enabled: false },
 	css: [`~/assets/css/main.css`],
 	runtimeConfig: {
 		public: {
