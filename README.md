@@ -78,9 +78,9 @@ nuxt-starter-template/
 ├─ ⚡ Vite for lightning-fast HMR
 ├─ 🧹 ESLint + formatting rules configured
 ├─ 📁 Clean folder structure ready to scale
-├─ 🔄 Auto-imports (components, composables, utils)
+├─ 🔄 Auto-imports (composables)
 ├─ 🛣️ File-based routing configured
-├─ 📝 Example components and composables
+├─ 📝 Example app config and composables
 └─ 🚀 Vercel/Netlify deployment ready
 ```
 
@@ -103,12 +103,15 @@ nuxt-starter-template/
 ```
 nuxt-starter-template/
 ├─ app/
-│  ├─ assets/           # Global styles, images
-│  ├─ components/       # Vue components
-│  ├─ composables/      # Reusable composition functions
-│  ├─ layouts/          # App layouts
-│  ├─ pages/            # File-based routes
-│  └─ utils/            # Utility functions
+│  ├─ app.vue                      # App shell
+│  ├─ app.config.ts                # App-level config (SEO/site metadata)
+│  ├─ assets/
+│  │  └─ css/main.css              # Tailwind entrypoint
+│  ├─ composables/
+│  │  ├─ api-client/               # API client helpers
+│  │  └─ env/                      # Runtime config accessor
+│  ├─ layouts/default.vue          # Default layout
+│  └─ pages/index.vue              # Home page
 ├─ public/              # Static assets
 ├─ server/              # Server-side code
 ├─ .env.example         # Environment variables template
@@ -168,17 +171,14 @@ cp .env.example .env
 
 ### TailwindCSS
 
-Customize colors, fonts, and more in `tailwind.config.ts`:
+Tailwind is loaded from `app/assets/css/main.css` and configured through Nuxt/Vite in `nuxt.config.ts`.
+Add your custom tokens/utilities directly in `main.css`:
 
-```ts
-export default {
-  theme: {
-    extend: {
-      colors: {
-        primary: '#your-color',
-      },
-    },
-  },
+```css
+@import "tailwindcss";
+
+@theme {
+	--color-primary: #00dc82;
 }
 ```
 
