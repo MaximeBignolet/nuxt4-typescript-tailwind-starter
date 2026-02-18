@@ -253,5 +253,5 @@ Front-End Developer – La Rochelle, France
 </p>
 
 <p align="center">
-  <a href="https://nuxt-starter-template-n1ygo5155-maxime-bignolets-projects.vercel.app">🌐 View Live Demo</a>
+  <a href="https://nuxt-starter-template-seven.vercel.app/">🌐 View Live Demo</a>
 </p>
