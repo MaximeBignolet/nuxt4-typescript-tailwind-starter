@@ -159,6 +159,29 @@ nuxt-starter-template/
 
 ---
 
+## 🧭 Conventions
+
+Composables are organized by domain: `app/composables/<domain>/use<Domain>s.ts` plus `types/<Domain>.ts`. Cross-cutting helpers (`api-client/`, `env/`) stay at the root.
+
+`useApiClient<T>(url, options)` wraps `useFetch` with JSON headers, `credentials: include` and `baseURL` from `useEnv().apiBaseUrl`. It never throws: errors surface through the returned `error` ref, and only the method, URL and status are logged.
+
+```ts
+// Read: give it a key, never wrap it in useAsyncData
+const { HEALTH } = useApiEndpoint();
+const { data, status, error, refresh } = useApiClient<HealthResponse>(HEALTH, { key: `health` });
+
+// Mutation: lazy, then execute() from a handler
+const save = useApiClient(HEALTH, { method: Method.POST, body, immediate: false, watch: false });
+await save.execute();
+if (save.error.value) {
+	// toast
+}
+```
+
+Loading state comes from `status`, never from a manual ref. Formatting is enforced by ESLint: tabs, semicolons, backtick strings.
+
+---
+
 ## 🎨 Customization
 
 ### Environment Variables
